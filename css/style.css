@@ -12,16 +12,10 @@ h2{
   font-size: 48px;
   font-weight: 600;
 }
-/* h3{
-  font-size: 54px;
-  font-weight: 600;
-  color: #282938;
-  font-family: "Poppins", sans-serif;
-  } */
-  p{
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(40, 41, 56,0.7);
+p{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(40, 41, 56,0.7);
 }
 /* Navbar part start */
 
@@ -236,13 +230,13 @@ nav ul li a:hover{
   overflow: hidden;
 }
 .project .right .warship img{
-  margin-top: 40px;
   width: 100%;
   height: 100%;
 }
 .project .right .unisaas{
   width: 400px;
   height: 280px;
+  margin-bottom: 40px;
   position: relative;
   overflow: hidden;
 }
@@ -308,49 +302,25 @@ nav ul li a:hover{
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
-  color: #282938;
-  font-family: "Poppins", sans-serif;
 }
 .features .f-heading h2{
   text-align: center;
   font-size: 48px;
   font-weight: 600;
-  line-height: 64px;
-  color: #282938;
-  font-family: "Poppins", sans-serif;
 }
 .features .f-content{
-  width: 405px;
-  height: 315px;
-  margin-bottom: 25px;
-  padding: 48px 32px 48px 48px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 58px 32px 48px 48px;
   background-color: #fff;
 }
-.features .f-img{
-  width: 33px;
-  height: 33px;
-}
-.features .f-img img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-.features h4{
+.features .f-content h4{
   font-size: 24px;
   font-weight: 500;
-  line-height: 36px;
-  color: #282938;
-  padding-top: 25px;
-  font-family: "Poppins", sans-serif;
+  padding-top: 22px;
 }
-.features p{
-  width: 324px;
-  font-size: 16px;
-  font-weight: 400;
+.features .f-content p{
   line-height: 28px;
-  color: rgb(40, 41, 56,.7);
-  font-family: "Poppins", sans-serif;
 }
 /* Features part end */
 
@@ -359,22 +329,14 @@ nav ul li a:hover{
   background-color: #F4F6FC;
   padding: 128px 0;
 }
-.review .left{
-  width: 30%;
-}
-.review .right{
-  width: 70%;
-  padding-left: 70px;
-}
 .review .left h2{
   font-size: 38px;
   font-weight: 600;
-  line-height: 56px;
-  color: #282938;
-  font-family: "Poppins", sans-serif;
+  width: 327px;
 }
 .review .left p{
   color: rgba(40, 41, 56,.7);
+  width: 327px;
 }
 .review .right h3{
   width: 840px;
@@ -387,15 +349,6 @@ nav ul li a:hover{
   column-gap: 15px;
   margin-top: 48px;
 }
-.review .right .people{
-  width: 52px;
-  height: 52px;
-}
-.review.right .people img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
 .review .r-content a{
   font-size: 18px;
   font-weight: 500;
@@ -403,8 +356,6 @@ nav ul li a:hover{
 }
 .review .r-content p{
   font-size: 12px;
-  font-weight: 500;
-  color: #282938;
 }
 /* Review part end */
 
@@ -412,18 +363,12 @@ nav ul li a:hover{
 .question{
   padding: 128px 0;
 }
-.question .left{
-  width: 30%;
-}
-.question .right{
-  width: 70%;
-}
 .question .left h2{
+  width: 328px;
   font-size: 38px;
   font-weight: 600;
   line-height: 56px;
-  color: #282938;
-  font-family: "Poppins", sans-serif;
+  padding-bottom: 16px;
 }
 .question .left p{
   color: rgba(36, 5, 242,.87);
@@ -431,7 +376,6 @@ nav ul li a:hover{
 .question .right .collapsed{
   font-size: 24px ;
   font-weight: 500;
-  color: #282938;
 }
 .question .right span{
   margin-right: 59px;
@@ -440,3 +384,100 @@ nav ul li a:hover{
   color: #2405F2;
 }
 /* Question part end */
+
+/* startup part start */
+.startup .s-main{
+  display: flex;
+  justify-content: space-around;
+}
+.startup .s-main .s-img{
+  position: relative;
+  width: 48%;
+}
+
+.startup .img-content{
+  width: 464px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.startup .img-content h1{
+  font-size: 54px;
+  line-height: 74px;
+  color: #fff;
+}
+.startup .img-content p{
+  color: #fff;
+}
+.startup .pricing .a{
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 25px;
+}
+.startup .pricing i{
+  color: #fff;
+  margin-left: 10px;
+}
+.startup .pricing{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.startup .form{
+  width: 48%;
+  height: 691px;
+  position: relative;
+  overflow: hidden;
+  background-color: #1B1C2B;
+}
+.startup .form-content{
+padding: 150px 90px;
+}
+.startup .form .form-content{
+  width: 100%;
+  position: absolute;
+  left: -100%;
+  transition: .4s;
+
+}
+.form:hover .form-content{
+  left: 0;
+}
+.startup .form h3{
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+}
+.startup .form p{
+  width: 432px;
+  padding-bottom: 48px;
+  color: #fff;
+}
+.startup .form input{
+  width: 432px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+.startup .form .b{
+  color: #1B1C2B;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 145px;
+  transition:.4s ;
+  margin-top: 34px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 41px;
+  background: #FCD980;
+}
+.startup .form .b:hover{
+  background-color: transparent;
+  color: #FCD980;
+  border:1px solid  #FCD980;
+}
+/* startup part end */
