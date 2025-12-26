@@ -389,6 +389,7 @@ nav ul li a:hover{
 .startup .s-main{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 77px;
 }
 .startup .s-main .s-img{
   position: relative;
@@ -432,7 +433,7 @@ nav ul li a:hover{
   height: 691px;
   position: relative;
   overflow: hidden;
-  background-color: #1B1C2B;
+  background-color: #1C1E53;
 }
 .startup .form-content{
 padding: 150px 90px;
@@ -462,6 +463,10 @@ padding: 150px 90px;
   font-size: 16px;
   margin-top: 10px;
   padding: 10px 20px;
+  background-color: transparent;
+}
+.startup ::placeholder{
+  color: rgba(255, 255, 255,0.7);
 }
 .startup .form .b{
   color: #1B1C2B;
@@ -481,3 +486,77 @@ padding: 150px 90px;
   border:1px solid  #FCD980;
 }
 /* startup part end */
+
+/* Blog part start */
+.blog{
+  padding-bottom: 179px;
+}
+.blog .blog-content{
+  width: 32%;
+}
+.blog .b-box{
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog-content .p{
+  padding-top: 40px;
+}
+.blog h2{
+  padding-bottom: 64px;
+}
+.blog .blog-content h5{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.blog .blog-content a{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Blog part end */
+/* Fotter part start */
+.fotter{
+  background-color: #1C1E53;
+  padding-top: 96px;
+}
+.fotter .p{
+  color: rgba(255, 255, 255,.7);
+  width: 399px;
+  padding-top: 22px;
+}
+.fotter h2{
+  color: #fff;
+}
+.fotter ul{
+  display: flex;
+  column-gap: 20px;
+  padding-left: 0;
+}
+.fotter ul li i{
+  color: #fff;
+  font-size: 20px;
+}
+.fotter .f-contact{
+  margin-top: 86px;
+  width: 80%;
+  background-color: #FCD980;
+  padding: 20px 20px;
+  display: flex;
+  column-gap: 30px;
+}
+.fotter .f-contact p{
+  margin-bottom: 0;
+}
+.last{
+  background-color: #fff;
+}
+.last .nav-link {
+  color: #000!important;
+}
+.last .navbar-brand{
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+}
+/* Fotter part end */
