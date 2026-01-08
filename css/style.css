@@ -124,6 +124,7 @@ nav ul li a:hover{
 .work .w-left p{
   width: 405px;
   padding: 10px 0;
+  color: #28293899;
 }
 .work .pricing{
   position: relative;
@@ -159,6 +160,10 @@ nav ul li a:hover{
   padding-top: 16px;
   padding-bottom: 8px;
   text-shadow: 0 4px 4px rgba(0, 0, 0,.25);
+}
+.work .w-card p{
+  color: rgba(40, 41, 56,.7);
+  width: 303px;
 }
 .work .w-box{
   display: flex;
@@ -325,6 +330,8 @@ nav ul li a:hover{
 }
 .features .f-content p{
   line-height: 28px;
+  color: rgba(40, 41, 56,.7);
+  width: 324px;
 }
 /* Features part end */
 
@@ -360,6 +367,8 @@ nav ul li a:hover{
 }
 .review .r-content p{
   font-size: 12px;
+  color: rgba(40, 41, 56,.7);
+  padding: 0;
 }
 /* Review part end */
 
@@ -442,7 +451,7 @@ nav ul li a:hover{
 }
 .contact-content{
   width: 100%;
-  padding: 96px 96px 64px 96px;
+  padding: 96px 96px 48px 96px;
   background-color: #1C1E53;
 }
 .contact-content h4{
@@ -505,6 +514,9 @@ nav ul li a:hover{
   color: #282938;
   font-size: 16px;
   font-weight: 500;
+}
+.blog .pricing i{
+  color: #282938;
 }
 /* Blog part end */
 /* Fotter part start */
