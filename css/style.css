@@ -5,6 +5,21 @@
   color: #282938;
   box-sizing: border-box;
 }
+.btn{
+  color: #1B1C2B;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 56px;
+  transition:.4s ;
+  border: 1px solid transparent;
+  border-radius: 41px;
+  background: #FCD980;
+}
+.btn:hover{
+  background-color: transparent;
+  color: #FCD980;
+  border:1px solid  #FCD980;
+}
 h1{
   font-size: 54px;
   font-weight: 600;
@@ -40,17 +55,6 @@ nav ul li a{
 nav ul li a:hover{
   color: #fff !important;
 }
-.nav-btn{
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  padding: 16px 48px;
-  margin-left: 48px;
-  border: 2px solid rgba(244, 246, 252, 0.2);
-  border-radius: 41px;
-  background-color: transparent;
-}
 /* Navbar part end */
 
 /* Banner part start */
@@ -65,24 +69,10 @@ nav ul li a:hover{
 .banner p{
   color: #fff;
   width: 562px;
+  margin-bottom: 40px;
 }
-.banner .a{
-  color: #1B1C2B;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 16px 56px;
-  transition:.4s ;
-  margin-top: 37px;
-  margin-right: 27px;
-  display: inline-block;
-  border: 1px solid transparent;
-  border-radius: 41px;
-  background: #FCD980;
-}
-.banner .a:hover{
-  background-color: transparent;
-  color: #FCD980;
-  border:1px solid  #FCD980;
+.banner .btn{
+  margin-right: 37px;
 }
 .banner .pricing{
   display: inline-block;
@@ -102,7 +92,7 @@ nav ul li a:hover{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 100px;
+  left: 80px;
   transition: .5s;
   visibility: hidden;
 }
@@ -111,7 +101,7 @@ nav ul li a:hover{
   visibility: visible;
   top: 50%;
   transform: translateY(-50%);
-  left: 130px;
+  left: 110px;
 }
 /* Banner part end */
 
