@@ -259,3 +259,729 @@ nav .btn {
 }
 /* Fotter part end */
 }
+@media(min-width:576px) and (max-width:767.99px){
+  /* Navbar part start */
+.navbar-toggler:focus{
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+.navbar-collapse{
+  text-align: center;
+  margin-top: 20px;
+}
+nav .btn {
+  margin-top: 20px;
+	font-size: 15px;
+	padding: 10px 40px;
+}
+/* Navbar part end */
+
+/* Banner part start */
+.banner {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.banner h1 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+.banner p {
+  font-size: 13px;
+	width: auto;
+  text-align: center;
+}
+.banner .btn {
+	margin-right: 20px;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+.banner .pricing .view {
+	font-size: 13px;
+}
+.banner .pricing i {
+	font-size: 13px;
+}
+.banner-btn{
+	text-align: center;
+}
+.banner img{
+	width: 100%;
+	margin-top: 50px;
+}
+/* Banner part end */
+
+/* Work part start */
+.work {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.work h2{
+	font-size: 30px;
+  text-align: center;
+}
+.work .w-left p{
+  width: auto;
+	font-size: 13px;
+  text-align: center;
+}
+.work .w-card {
+	width: 49%;
+  margin-top: 20px;
+}
+.work .w-card h3 {
+	font-size: 22px;
+}
+.work .w-card p {
+	width: auto;
+  font-size: 13px;
+  padding-top: 0;
+}
+/* Work part end */
+
+/* Project part start */
+.project {
+	padding: 80px 0;
+}
+.project h2 {
+	font-size: 28px;
+}
+.project .box a {
+	font-size: 13px;
+}
+.project .right .unisaas {
+	width: auto;
+	height: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+/* Project part end */
+
+/* Feature part start */
+.features .f-heading {
+	width: auto;
+  text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.features .f-heading h2 {
+	font-size: 25px;
+}
+.features .f-content {
+	width: 90%;
+	padding: 20px 20px;
+}
+.features .f-content h4 {
+	font-size: 20px;
+}
+.features .f-content p {
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 20px;
+	width: auto;
+}
+/* Feature part end */
+
+/* Review part start */
+.review {
+	padding: 80px 0;
+}
+.review .left h2 {
+	font-size: 25px;
+  text-align: center;
+	width: auto;
+}
+.review .left p {
+  text-align: center;
+  font-size: 13px;
+	width: auto;
+}
+.review .box {
+	justify-content: center;
+}
+.review .right h3 {
+	width: auto;
+  text-align: center;
+	font-size: 18px;
+  padding-top: 20px;
+}
+.review .r-content a {
+	font-size: 15px;
+}
+.review .r-content p {
+	font-size: 10px;
+}
+/* Review part end */
+
+/* Question part start */
+.question {
+	padding: 80px 0;
+}
+.question .left h2 {
+	width: auto;
+	font-size: 22px;
+	line-height: 35px;
+}
+.contact-info h1, p {
+	padding-top: 0;
+	width: auto;
+  font-size: 13px;
+}
+.accordion-button{
+  font-size: 16px;
+}
+.accordion-body {
+	font-size: 13px;
+	padding-top: 9px;
+	padding-bottom: 20px;
+	line-height: 26px;
+	width: auto;
+}
+/* Question part end */
+
+/* Contact part start */
+.contact-content {
+	padding: 20px 20px;
+}
+.contact-content input {
+	font-size: 12px;
+	padding: 14px 11px;
+}
+.contact-content button {
+	padding: 10px 0;
+	font-size: 14px;
+}
+/* Contact part end */
+
+/* Blog part start */
+.blog {
+	padding-bottom: 80px;
+}
+.blog h2 {
+	padding-bottom: 40px;
+  font-size: 30px;
+}
+.blog .b-box {
+	display: block;
+}
+.blog .blog-content {
+	width: 100%;
+  margin-bottom: 30px;
+}
+.blog .blog-content img{
+	width: 100%;
+}
+.blog .blog-content .p {
+	padding-top: 20px;
+	color: #000000d8;
+}
+.blog .blog-content h5 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.contact-info h1, p {
+	padding-top: 10px;
+	width: auto;
+	font-size: 13px;
+	color: #000000c2;
+}
+.blog .blog-content a {
+	font-size: 13px;
+}
+.blog .pricing i {
+  font-size: 13px;
+}
+/* Blog part end */
+
+/* Fotter part start */
+.fotter .p {
+	width: auto;
+  font-size: 13px;
+}
+.fotter .f-contact {
+	width:auto;
+  justify-content: space-between;
+	padding: 10px 10px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+}
+.fotter h2{
+  font-size: 30px;
+}
+/* Fotter part end */
+}
+@media(min-width:768px) and (max-width:991.99px){
+  /* Navbar part start */
+.navbar-toggler:focus{
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+.navbar-collapse{
+  text-align: center;
+  margin-top: 20px;
+}
+nav .btn {
+  margin-top: 20px;
+	font-size: 15px;
+	padding: 10px 40px;
+}
+/* Navbar part end */
+
+/* Banner part start */
+.banner {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.banner h1 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+.banner p {
+  font-size: 13px;
+	width: auto;
+  text-align: center;
+}
+.banner .btn {
+	margin-right: 20px;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+.banner .pricing .view {
+	font-size: 13px;
+}
+.banner .pricing i {
+	font-size: 13px;
+}
+.banner-btn{
+	text-align: center;
+}
+.banner img{
+	width: 100%;
+	margin-top: 50px;
+}
+/* Banner part end */
+
+/* Work part start */
+.work {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.work h2{
+	font-size: 30px;
+  text-align: center;
+}
+.work .w-left p{
+  width: auto;
+	font-size: 13px;
+  text-align: center;
+}
+.work .w-card {
+	width: 49%;
+  margin-top: 20px;
+}
+.work .w-card h3 {
+	font-size: 22px;
+}
+.work .w-card p {
+	width: auto;
+  font-size: 13px;
+  padding-top: 0;
+}
+/* Work part end */
+
+/* Project part start */
+.project {
+	padding: 80px 0;
+}
+.project h2 {
+	font-size: 28px;
+}
+.project .box a {
+	font-size: 13px;
+}
+.project .right .unisaas {
+	width: auto;
+	height: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+/* Project part end */
+
+/* Feature part start */
+.features .f-heading {
+	width: auto;
+  text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.features .f-heading h2 {
+	font-size: 25px;
+}
+.features .f-content {
+	width: 45%;
+}
+.features .f-content h4 {
+	font-size: 20px;
+}
+.features .f-content p {
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 20px;
+	width: auto;
+}
+/* Feature part end */
+
+/* Review part start */
+.review {
+	padding: 80px 0;
+}
+.review .left h2 {
+	font-size: 25px;
+  text-align: center;
+	width: auto;
+}
+.review .left p {
+  text-align: center;
+  font-size: 13px;
+	width: auto;
+}
+.review .box {
+	justify-content: center;
+}
+.review .right h3 {
+	width: auto;
+  text-align: center;
+	font-size: 18px;
+  padding-top: 20px;
+}
+.review .r-content a {
+	font-size: 15px;
+}
+.review .r-content p {
+	font-size: 10px;
+}
+/* Review part end */
+
+/* Question part start */
+.question {
+	padding: 80px 0;
+}
+.question .left h2 {
+	width: auto;
+	font-size: 22px;
+	line-height: 35px;
+}
+.contact-info h1, p {
+	padding-top: 0;
+	width: auto;
+  font-size: 13px;
+}
+.accordion-button{
+  font-size: 16px;
+}
+.accordion-body {
+	font-size: 13px;
+	padding-top: 9px;
+	padding-bottom: 20px;
+	line-height: 26px;
+	width: auto;
+}
+/* Question part end */
+
+/* Contact part start */
+.contact-content {
+	padding: 20px 20px;
+}
+.contact-content input {
+	font-size: 12px;
+	padding: 14px 11px;
+}
+.contact-content button {
+	padding: 10px 0;
+	font-size: 14px;
+}
+/* Contact part end */
+
+/* Blog part start */
+.blog {
+	padding-bottom: 80px;
+}
+.blog h2 {
+	padding-bottom: 40px;
+  font-size: 30px;
+}
+.blog .b-box {
+	display: block;
+}
+.blog .blog-content {
+	width: 100%;
+  margin-bottom: 30px;
+}
+.blog .blog-content img{
+	width: 100%;
+}
+.blog .blog-content .p {
+	padding-top: 20px;
+	color: #000000d8;
+}
+.blog .blog-content h5 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.contact-info h1, p {
+	padding-top: 10px;
+	width: auto;
+	font-size: 13px;
+	color: #000000c2;
+}
+.blog .blog-content a {
+	font-size: 13px;
+}
+.blog .pricing i {
+  font-size: 13px;
+}
+/* Blog part end */
+
+/* Fotter part start */
+.fotter .p {
+	width: auto;
+  font-size: 13px;
+}
+.fotter .f-contact {
+	width:auto;
+  justify-content: space-between;
+	padding: 10px 10px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+}
+.fotter h2{
+  font-size: 30px;
+}
+/* Fotter part end */
+}
+@media(min-width:992px) and (max-width:1199.99px){
+  /* Navbar part start */
+.navbar-toggler:focus{
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+.navbar-collapse{
+  text-align: center;
+  margin-top: 20px;
+}
+nav .btn {
+  margin-top: 20px;
+	font-size: 15px;
+	padding: 10px 40px;
+}
+/* Navbar part end */
+
+/* Banner part start */
+.banner {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.banner h1 {
+	font-size: 35px;
+}
+.banner p {
+  font-size: 13px;
+	width: auto;
+}
+.banner .btn {
+	margin-right: 20px;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+.banner .pricing .view {
+	font-size: 13px;
+}
+.banner .pricing i {
+	font-size: 13px;
+}
+.banner img{
+	width: 100%;
+}
+/* Banner part end */
+
+/* Work part start */
+.work {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.work h2{
+	font-size: 30px;
+}
+.work .w-left p{
+  width: auto;
+	font-size: 13px;
+}
+.work .w-card {
+	width: 50%;
+}
+.work .w-card h3 {
+	font-size: 22px;
+}
+.work .w-card p {
+	width: auto;
+  font-size: 13px;
+  padding-top: 0;
+}
+/* Work part end */
+
+/* Project part start */
+.project {
+	padding: 80px 0;
+}
+.project h2 {
+	font-size: 28px;
+}
+.project .box a {
+	font-size: 13px;
+}
+.project .right .unisaas {
+	width: auto;
+	height: auto;
+	margin-bottom: 23px;
+}
+/* Project part end */
+
+/* Feature part start */
+.features .f-heading {
+	width: auto;
+  text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.features .f-heading h2 {
+	font-size: 25px;
+}
+.features .f-content {
+	width: 30%;
+}
+.features .f-content h4 {
+	font-size: 20px;
+}
+.features .f-content p {
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 20px;
+	width: auto;
+}
+/* Feature part end */
+
+/* Review part start */
+.review {
+	padding: 80px 0;
+}
+.review .left h2 {
+	font-size: 25px;
+	width: auto;
+}
+.review .left p {
+  font-size: 13px;
+	width: auto;
+}
+.review .right h3 {
+	width: auto;
+	font-size: 18px;
+}
+/* Review part end */
+
+/* Question part start */
+.question {
+	padding: 80px 0;
+}
+.question .left h2 {
+	width: auto;
+	font-size: 22px;
+	line-height: 35px;
+}
+.contact-info h1, p {
+	padding-top: 0;
+	width: auto;
+  font-size: 13px;
+}
+.accordion-button{
+  font-size: 16px;
+}
+.accordion-body {
+	font-size: 13px;
+	padding-bottom: 20px;
+	line-height: 26px;
+	width: auto;
+}
+/* Question part end */
+
+/* Contact part start */
+.contact-content {
+	padding: 20px 20px;
+}
+.contact-content p {
+	padding-bottom: 22px;
+}
+.contact-content input {
+	font-size: 12px;
+	padding: 14px 11px;
+}
+.contact-content button {
+	padding: 10px 0;
+	font-size: 14px;
+}
+/* Contact part end */
+
+/* Blog part start */
+.blog {
+	padding-bottom: 80px;
+}
+.blog h2 {
+	padding-bottom: 40px;
+  font-size: 30px;
+}
+.blog .blog-content {
+	width: 32%;
+  margin-bottom: 30px;
+}
+.blog .blog-content img{
+	width: 100%;
+}
+.blog .blog-content .p {
+	padding-top: 20px;
+	color: #000000d8;
+}
+.blog .blog-content h5 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.contact-info h1, p {
+	padding-top: 10px;
+	width: auto;
+	font-size: 13px;
+	color: #000000c2;
+}
+.blog .blog-content a {
+	font-size: 13px;
+}
+.blog .pricing i {
+  font-size: 13px;
+}
+/* Blog part end */
+
+/* Fotter part start */
+.fotter .p {
+	width: auto;
+  font-size: 13px;
+}
+.fotter .f-contact {
+	width:auto;
+  justify-content: space-evenly;
+	padding: 10px 10px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+}
+.fotter h2{
+  font-size: 30px;
+}
+/* Fotter part end */
+}
